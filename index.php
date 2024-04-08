@@ -4,33 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KST University</title>
+    <title>Kayne University</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css-reset.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
 
+
+
 </head>
 <body>
+
+<!--header-->
+
+
+
     <header>
         <a href="#" class="logo">
-            <img id="logo" src="image2/2.png" alt="">
+            <img id="logo" src="image2/logo.png" alt="">
         </a>
         <nav id="home">
             <ul>
-                <p>KST University Management System Online</p>
+                <p>Kayne University Management System Online</p>
             </ul>
             <div class="menu">
                 <a class="Login" href="user/login.php">
                     <img src="image2/user.png" alt="">
                     
                 </a>
-                <a class="logout" href="">
-                    <img src="image2/logout (1).png" alt="">
-                    
-                </a>
+               
             </div>
         </nav>
     </header>
@@ -54,7 +58,7 @@
                 </nav>
             </div>
             <div class="flex">
-                <button id="dat_lich">Đăng nhập ngay</button>
+                <button id="dat_lich">Login</button>
                 <ul class="items">
                     <li><a href="https://www.facebook.com/ysbalaba"><img src="image/7044033_zalo_icon.png" alt=""></a></li>
                     <li><a href="https://www.facebook.com/ysbalaba"><img src="image/facebook-logo.png" alt=""></a></li>
@@ -67,7 +71,7 @@
             <h2>Tin Tức</h2>
             <div class="services-menu">
                 <ul id="service">
-                    <li><button id="tatca">Tất cả</button></li>
+                    <li><button id="tatca">All</button></li>
                     
                     
                 </ul>
@@ -82,11 +86,11 @@
                 <a href="">
                     <img src="image2/giang-day.png" alt="">
                 </a>
-                <p>Giảng dạy</p>
+                <p>Teaching</p>
                
                 <div class="price">
                     <div class="boxleft">
-                        <span>Các thông tin cập nhật lịch trình thời khoá biểu</span>
+                        <span>Updated information on class schedules</span>
                     </div>
                    
                 </div>
@@ -95,11 +99,11 @@
                 <a href="">
                     <img src="image2/huong-dan.png" alt="">
                 </a>
-                <p>Hướng Dẫn</p>
+                <p>Instruct</p>
                
                 <div class="price">
                     <div class="boxleft">
-                        <span>Hướng Dẫn các thủ tục nhập học,check lịch học,làm ĐA/ĐATN</span>
+                        <span>Instructions on admission procedures, checking class schedules, making DA/DATN</span>
                     </div>
                     
                 </div>
@@ -108,11 +112,11 @@
                 <a href="">
                     <img src="image2/phan-cong.png" alt="">
                 </a>
-                <p>Phân Công</p>
+                <p>Assignment</p>
         
                 <div class="price">
                     <div class="boxleft">
-                        <span>Bái báo,đề,sách,sáng chếmlý lịch khoa học</span>
+                        <span>Articles, articles, books, scientific resumes</span>
                     </div>
                    
                 </div>
@@ -121,11 +125,11 @@
                 <a href="">
                     <img src="image2/to-chuc.png" alt="">
                 </a>
-                <p>Tổ Chức</p>
+                <p>Organization</p>
             
                 <div class="price">
                     <div class="boxleft">
-                        <span>Quy định tổ chức,quản lí nhân viên,học sinh</span>
+                        <span>Regulations on organization and management of staff and students</span>
                     </div>
                     
                 </div>
@@ -134,11 +138,11 @@
                 <a href="">
                     <img src="image2/co-so.png" alt="">
                 </a>
-                <p>Cơ Sở</p>
+                <p>Basis</p>
               
                 <div class="price">
                     <div class="boxleft">
-                        <span>Danh mục,thiết bị,tráng thái</span>
+                        <span>Catalog, equipment, status</span>
                     </div>
                     
                 </div>
@@ -147,11 +151,11 @@
                 <a href="">
                     <img src="image2/hop-tac.png" alt="">
                 </a>
-                <p>Hợp Tác</p>
+                <p>Cooperate</p>
                
                 <div class="price">
                     <div class="boxleft">
-                        <span>Đối tác nước ngoài,khoá đào tạo,trao đổi CB/SV thực tập</span>
+                        <span>Foreign partners, training courses, exchange of interns/students</span>
                     </div>
                    
                 </div>
@@ -160,11 +164,11 @@
                 <a href="">
                     <img src="image2/hoc-vien.png" alt="">
                 </a>
-                <p>Học Viên</p>
+                <p>Student</p>
            
                 <div class="price">
                     <div class="boxleft">
-                        <span>Tra cứu thông tin sinh viên</span>
+                        <span>Look up student information</span>
                     </div>
                     
                 </div>
@@ -177,7 +181,7 @@
               
                 <div class="price">
                     <div class="boxleft">
-                        <span>Bảng chỉ số thống ké,tổng hợp số liệu về các lĩnh vực</span>
+                        <span>Statistical index table, summarizing data on fields</span>
                     </div>
                    
                 </div>

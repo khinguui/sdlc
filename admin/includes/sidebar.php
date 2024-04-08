@@ -61,7 +61,19 @@ foreach($results as $row)
                 </ul>
               </div>
             </li>
-           
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                <span class="menu-title">Grade</span>
+                <i class="icon-doc menu-icon"></i>
+              </a>
+              <div class="collapse" id="auth">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="addgrade.php"> Add Grade </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="manage-grade.php"> Manage Grade </a></li>
+                </ul>
+              </div>
             </li>
+           
+            
           </ul>
         </nav>

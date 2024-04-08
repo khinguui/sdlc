@@ -187,3 +187,33 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+
+
+
+-- test bang diem
+
+CREATE TABLE `tblgrades` (
+  `ID` int(10) NOT NULL AUTO_INCREMENT,
+  `StudentID` int(10) NOT NULL,
+  `ClassID` int(5) NOT NULL,
+  `Subject` varchar(100) NOT NULL,
+  `Grade` decimal(5,2) DEFAULT NULL,
+  `GradeDate` timestamp NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`ID`),
+  CONSTRAINT `FK_StudentID` FOREIGN KEY (`StudentID`) REFERENCES `tblstudent` (`ID`),
+  CONSTRAINT `FK_ClassID` FOREIGN KEY (`ClassID`) REFERENCES `tblclass` (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+-- test mon 
+CREATE TABLE `tblsubject` (
+  `ID` int(10) NOT NULL AUTO_INCREMENT,
+  `SubjectName` varchar(100) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+

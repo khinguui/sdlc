@@ -88,10 +88,10 @@ color: rgb(48, 62, 85);
 font-size: 40px;
 font-weight: 500;
 font-family: "Josefin Sans", sans-serif;
-margin-top: -20px;
-margin-left: 120px;
 
+margin-left: 120px;
 }
+
 
 
 
@@ -121,6 +121,7 @@ margin-left: 120px;
   width: 32px;
   height: 32px;
   object-fit: cover;
+  
 
 }
 .giay__img{
@@ -300,4 +301,10 @@ p.price-title{
   display: flex;
   
 }
+
+
+
+
+
+
 
