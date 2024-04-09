@@ -89,7 +89,7 @@ font-size: 40px;
 font-weight: 500;
 font-family: "Josefin Sans", sans-serif;
 
-margin-left: 120px;
+margin-left: 160px;
 }
 
 
@@ -113,10 +113,7 @@ margin-left: 120px;
 .menu a{
   text-decoration: none;
 }
-.menu .Login{
-  margin-right: 22px;
- 
-}
+
 .menu img{
   width: 32px;
   height: 32px;

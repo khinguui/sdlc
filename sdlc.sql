@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.9.0.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Feb 02, 2022 at 08:41 PM
--- Server version: 10.3.15-MariaDB
--- PHP Version: 7.2.19
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -80,24 +73,7 @@ CREATE TABLE `tblnotice` (
   `CreationDate` timestamp NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `tblnotice`
---
-
-
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tblpage`
---
-
----------------------------------------------------
-
-
---
-
---------------------------------------------
+-----------------------------
 
 --
 -- Table structure for table `tblstudent`
@@ -125,9 +101,6 @@ CREATE TABLE `tblstudent` (
 --
 -- Dumping data for table `tblstudent`
 
---
--- Indexes for dumped tables
---
 
 --
 -- Indexes for table `tbladmin`
@@ -144,10 +117,6 @@ ALTER TABLE `tblclass`
 --
 
 
---
--- Indexes for table `tblpage`
-
---
 
 
 --
@@ -156,8 +125,6 @@ ALTER TABLE `tblclass`
 ALTER TABLE `tblstudent`
   ADD PRIMARY KEY (`ID`);
 
---
--- AUTO_INCREMENT for dumped tables
 --
 
 --
@@ -192,7 +159,7 @@ COMMIT;
 
 
 
--- test bang diem
+
 
 CREATE TABLE `tblgrades` (
   `ID` int(10) NOT NULL AUTO_INCREMENT,
@@ -208,7 +175,7 @@ CREATE TABLE `tblgrades` (
 
 
 
--- test mon 
+
 CREATE TABLE `tblsubject` (
   `ID` int(10) NOT NULL AUTO_INCREMENT,
   `SubjectName` varchar(100) NOT NULL,

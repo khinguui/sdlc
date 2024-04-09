@@ -50,7 +50,7 @@ echo "<script>alert('Invalid Details');</script>";
 <html lang="zxx">
 <head>
     
-    <title>Kayne Login Form </title>
+    <title>NEI Login Form </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
@@ -81,10 +81,10 @@ echo "<script>alert('Invalid Details');</script>";
             <div class="col-lg-6 col-md-12 bg-img">
                 <div class="informeson">
                     <div class="typing">
-                        <h1> Kayne SMS </h1>
+                        <h1> NEI SMS </h1>
                     </div>
                     <p>
-                    The Kayne Student Management System simplifies student administration in educational institutions. It centralizes student records, facilitates course enrollment, and enables communication between students and faculty. With features like grade tracking and attendance management, it enhances efficiency and transparency, fostering improved student outcomes and administrative effectiveness.
+                    The NEI Student Management System simplifies student administration in educational institutions. It centralizes student records, facilitates course enrollment, and enables communication between students and faculty. With features like grade tracking and attendance management, it enhances efficiency and transparency, fostering improved student outcomes and administrative effectiveness.
                       </p>
 
                     <div class="social-list">
@@ -105,7 +105,7 @@ echo "<script>alert('Invalid Details');</script>";
                 <div class="login-inner-form">
                     <div class="details">
                         <a href="../index.php" style="font-size: 70px; color: rgb(123,28,51);">
-                            Kayne SMS
+                            NEI SMS
                         </a>
                         <h3>Sign Into Your Account</h3>
                         <form  id="login" method="POST" name="login">

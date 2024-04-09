@@ -23,11 +23,11 @@
 
     <header>
         <a href="#" class="logo">
-            <img id="logo" src="image2/logo.png" alt="">
+            <img id="logo" src="image2/NEI.png" alt="">
         </a>
         <nav id="home">
             <ul>
-                <p>Kayne University Management System Online</p>
+                <p>NEI University Management System Online</p>
             </ul>
             <div class="menu">
                 <a class="Login" href="user/login.php">
@@ -68,7 +68,7 @@
             </div>
         </section>
         <section class="container">
-            <h2>Tin Tức</h2>
+            <h2>News</h2>
             <div class="services-menu">
                 <ul id="service">
                     <li><button id="tatca">All</button></li>
