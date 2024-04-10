@@ -12493,7 +12493,7 @@ dl {
     -webkit-transition: width 0.25s ease, background 0.25s ease;
     -moz-transition: width 0.25s ease, background 0.25s ease;
     -ms-transition: width 0.25s ease, background 0.25s ease;
-    background: #181824;
+    background: rgb(78, 115, 223);
     width: 240px;
     height: 70px;
     padding: 0 1.75rem; }
@@ -12776,7 +12776,7 @@ dl {
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 70px);
-  background: #181824;
+  background: rgb(78, 115, 223);
   font-family: "Open Sans", sans-serif;
   padding: 0;
   width: 240px;
@@ -12839,7 +12839,7 @@ dl {
         .sidebar .nav .nav-item .nav-link[aria-expanded="true"] .menu-arrow:before {
           content: "\f140"; }
       .sidebar .nav .nav-item.active:not(.navbar-brand-mini-wrapper) {
-        background: #282828; }
+        background:rgb(78, 115, 223); }
         .sidebar .nav .nav-item.active:not(.navbar-brand-mini-wrapper) > .nav-link .menu-title {
           color: #b3b3b3;
           font-family: "Open Sans", sans-serif;
@@ -12847,7 +12847,7 @@ dl {
         .sidebar .nav .nav-item.active:not(.navbar-brand-mini-wrapper) > .nav-link i {
           color: #38ce3c; }
       .sidebar .nav .nav-item:not(.nav-category):hover {
-        background: #2c2c43; }
+        background: rgb(78, 115, 223); }
       .sidebar .nav .nav-item.nav-profile {
         max-width: 270px;
         margin-top: 10px;

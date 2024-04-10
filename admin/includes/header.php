@@ -3,7 +3,7 @@
           <a class="navbar-brand brand-logo" href="dashboard.php">
             <strong style="color: white;">SMS</strong>
           </a>
-          <a class="navbar-brand brand-logo-mini" href="dashboard.php"><img src="mainadmin/images/logo-mini.svg" alt="logo" /></a>
+         
         </div><?php
          $aid= $_SESSION['sturecmsaid'];
 $sql="SELECT * from tbladmin where ID=:aid";
@@ -23,10 +23,10 @@ foreach($results as $row)
           <ul class="navbar-nav navbar-nav-right ml-auto">
             <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
               <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                <img class="img-xs rounded-circle ml-2" src="mainadmin/images/faces/face8.jpg" alt="Profile image"> <span class="font-weight-normal"> <?php  echo htmlentities($row->AdminName);?> </span></a>
+                <span class="font-weight-normal"> <?php  echo htmlentities($row->AdminName);?> </span></a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                 <div class="dropdown-header text-center">
-                  <img class="img-md rounded-circle" src="mainadmin/images/faces/face8.jpg" alt="Profile image">
+             
                   <p class="mb-1 mt-3"><?php  echo htmlentities($row->AdminName);?></p>
                   <p class="font-weight-light text-muted mb-0"><?php  echo htmlentities($row->Email);?></p>
                 </div><?php $cnt=$cnt+1;}} ?>
