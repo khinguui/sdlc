@@ -81,17 +81,17 @@ echo "<script>alert('Invalid Details');</script>";
             <div class="col-lg-6 col-md-12 bg-img">
                 <div class="informeson">
                     <div class="typing">
-                        <h1> NEI SMS </h1>
+                        <h1>  SMS </h1>
                     </div>
                     <p>
-                    The NEI Student Management System simplifies student administration in educational institutions. It centralizes student records, facilitates course enrollment, and enables communication between students and faculty. With features like grade tracking and attendance management, it enhances efficiency and transparency, fostering improved student outcomes and administrative effectiveness.
+                    The  Student Management System simplifies student administration in educational institutions. It centralizes student records, facilitates course enrollment, and enables communication between students and faculty. With features like grade tracking and attendance management, it enhances efficiency and transparency, fostering improved student outcomes and administrative effectiveness.
                       </p>
 
                     <div class="social-list">
                         <div class="buttons">
-                            <a href="https://facebook.com/ysbalaba" class="facebook-bg"><i class="fa fa-facebook"></i></a>
+                            <a href="https://facebook.com/Cutuan280803" class="facebook-bg"><i class="fa fa-facebook"></i></a>
 
-                            <a href="https://github.com/Kayne1310" class="github-bg">
+                            <a href="#" class="github-bg">
                                 <i class="fab fa-github"></i>
                             </a>
                             
@@ -105,7 +105,7 @@ echo "<script>alert('Invalid Details');</script>";
                 <div class="login-inner-form">
                     <div class="details">
                         <a href="../index.php" style="font-size: 70px; color: rgb(123,28,51);">
-                            NEI SMS
+                             SMS
                         </a>
                         <h3>Sign Into Your Account</h3>
                         <form  id="login" method="POST" name="login">

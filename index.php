@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kayne University</title>
+    <title>Tanh University</title>
     <link rel="stylesheet" href="style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,20 +22,12 @@
 
 
     <header>
-        <a href="#" class="logo">
-            <img id="logo" src="image2/NEI.png" alt="">
-        </a>
+      
         <nav id="home">
             <ul>
-                <p>NEI University Management System Online</p>
+                <p > University Management System Online</p>
             </ul>
-            <div class="menu">
-                <a class="Login" href="user/login.php">
-                    <img src="image2/user.png" alt="">
-                    
-                </a>
-               
-            </div>
+           
         </nav>
     </header>
     <main>
@@ -50,15 +42,13 @@
                             <img src="image/location_535239.png" alt="">
                             <span>Trịnh Văn Bô, Nam Từ Liêm, Hà Nội</span>
                         </li>
-                        <li>
-                            <img src="image/location_535239.png" alt="">
-                            <span>Sơn Đồng, Hoài Đức, Hà Nội</span>
-                        </li>
+                       
                     </ul>
                 </nav>
             </div>
             <div class="flex">
-                <button id="dat_lich">Login</button>
+                
+               <button id="dat_lich"><a href="user/login.php" style="text-decoration: none;color: white;">Login</a></button>
                 <ul class="items">
                     <li><a href="https://www.facebook.com/ysbalaba"><img src="image/7044033_zalo_icon.png" alt=""></a></li>
                     <li><a href="https://www.facebook.com/ysbalaba"><img src="image/facebook-logo.png" alt=""></a></li>
